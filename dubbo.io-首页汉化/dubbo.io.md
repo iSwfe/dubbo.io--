@@ -2,11 +2,11 @@
 
 ## 预览
 
->   ​	Dubbo是一套由Alibaba开源的高性能,基于Java的RPC(远程过程调用)框架.如同许多RPC系统一样,dubbo也同样是围绕Service定义的一套实现,他指定了一些能通过参数类型和返回值类型去远程调用的方法.在服务器Server这端,服务器Server实现了这些接口interface和运行一套dubbo去处理客户端Client的调用.而在客户端Client这边,客户端Client有一套能提供和服务器Server相同方法的存根,即实现.
+>   ​	Dubbo是一套由Alibaba开源的高性能,基于Java的RPC(远程过程调用)框架.如同许多RPC系统一样,dubbo也同样是围绕Service定义的一套实现,他指定了一些能通过参数类型和返回值类型去远程调用的方法.在服务器Server这端,有实现了这些接口interface和运行一套dubbo去处理客户端Client的调用.而在客户端Client这边,有一套能提供和服务器Server相同方法的存根,即实现.
 >
 >   ![dubbo-architecture](dubbo-architecture.png)
 >
->   ​	Dubbo提供三种关键功能,他们包括基于远程调用的接口,容错处理和负载均衡以及自动服务注册和服务检索.Dubbo框架也广泛地适用于Alibaba内部甚至像京东,当当网,去哪儿,网易考拉等等外部公司中.
+>   ​	Dubbo提供三种关键性的功能,他们包括基于远程调用的接口,容错处理和负载均衡以及自动服务注册和服务检索.Dubbo框架也广泛地适用于Alibaba内部甚至像京东,当当网,去哪儿,网易考拉等等外部公司中.
 
 
 
