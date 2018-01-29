@@ -59,7 +59,7 @@
 >
 >   #### 配置`service provider`
 >
->   下面显示的代码片段展示了一个dubbo的`service provider`如何用于Spring框架的配置中,这也是我们推荐你应该这样使用它,然而依你所好你同样可以使用[API confguration](https://dubbo.gitbooks.io/dubbo-user-book/content/configuration/api.html).
+>   下面显示的代码片段展示了一个dubbo的`service provider`如何用于Spring框架的配置中,这也是我们推荐你应该这样使用它,不过你同样可以依你所好,使用[API confguration](https://dubbo.gitbooks.io/dubbo-user-book/content/configuration/api.html).
 >
 >   ```xml
 >   <?xml version="1.0" encoding="UTF-8"?>
